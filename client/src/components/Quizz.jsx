@@ -25,6 +25,7 @@ function Quizz() {
         if (selectedAnswer) nextQuestionResp = await axios.post("/answer", { answer: selectedAnswer });
         else nextQuestionResp = await axios.post("/answer");
 
+        setSelectedAnswer(null);
         if (nextQuestionResp.data.result) {
             setStats(nextQuestionResp.data.session.stats);
         } else {
@@ -65,6 +66,7 @@ function Quizz() {
                     <>
                         <Question
                             question={currentQuestion}
+                            selectedAnswer={selectedAnswer}
                             questionIndex={currentQuestionIndex}
                             totalQuestions={totalQuestions}
                             answerCallback={handleAnswerSelect}

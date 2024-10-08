@@ -1,13 +1,13 @@
 import React from 'react'
 
-function AnswerButton({ id, color, size, onChange}) {
+function AnswerButton({ id, color, onChange, checked}) {
     return (
       <>
-        <input type='radio' name='answer' id={id} onChange={onChange} />
+        <input type='radio' name='answer' id={id} onChange={onChange} checked={checked} />
         <label
           htmlFor={id}
           style={{
-            color: color, // Use color for the label
+            color: color,
             display: 'inline-block',
             cursor: 'pointer',
           }}

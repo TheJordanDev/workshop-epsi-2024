@@ -50,10 +50,7 @@ app.post("/answer", (req, res) => {
 
     if (session.current_question >= questions.length) return res.json({ result: true, session: session.stats });
 
-    console.log(req.body);
-
     if (req.body?.answer) {
-        console.log("Answer:", req.body.answer);
         const question = questions[session.current_question];
         const answer = question.answers[req.body.answer];
         if (answer) {
