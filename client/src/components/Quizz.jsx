@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Question from "./Question";
-import "@/styles/Quizz.scss";
 import NavigationButtons from "./NavigationButtons";
 import axios from "@/axios";
 
@@ -19,9 +18,19 @@ function Quizz() {
 		setSelectedAnswer(answer);
 	};
 
+    const goBack = async () => {
+        let prevQuestionResp = await axios.post("/back");
+        setSelectedAnswer(null);
+
+        if (prevQuestionResp.data.question) {
+            setTotalQuestions(prevQuestionResp.data.total);
+            setCurrentQuestionIndex(prevQuestionResp.data.current);
+            setCurrentQuestion(prevQuestionResp.data.question);
+        }
+    }
+
     const nextQuestion = async () => {
         let nextQuestionResp = null;
-        console.log("Selected answer:", selectedAnswer);
         if (selectedAnswer) nextQuestionResp = await axios.post("/answer", { answer: selectedAnswer });
         else nextQuestionResp = await axios.post("/answer");
 
@@ -71,7 +80,7 @@ function Quizz() {
                             totalQuestions={totalQuestions}
                             answerCallback={handleAnswerSelect}
                         />  
-                        <NavigationButtons nextCallback={nextQuestion} answer={selectedAnswer} questionIndex={currentQuestionIndex} />
+                        <NavigationButtons backCallback={goBack} nextCallback={nextQuestion} answer={selectedAnswer} questionIndex={currentQuestionIndex} />
                     </>
                 )}
             </div>

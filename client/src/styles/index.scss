@@ -1,3 +1,8 @@
+@import './_reset.scss';
+@import './_mixins.scss';
+@import './App.scss';
+@import './Quizz.scss';
+
 :root {
   font-family: Alexandria, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

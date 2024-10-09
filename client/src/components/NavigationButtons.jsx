@@ -1,8 +1,12 @@
-function NavigationButtons({ nextCallback, answer, questionIndex }) {
+function NavigationButtons({ backCallback, nextCallback, answer, questionIndex }) {
     return (
         <div className="navigation">
-            { questionIndex > 0 && <button className="navigation-button">Previous</button> }
-            <button className="navigation-button"
+            { questionIndex > 0 && 
+                <button className="navigation-button previous"
+                    onClick={backCallback}
+                >Previous</button> 
+            }
+            <button className="navigation-button next"
                 disabled={answer === null}
                 onClick={nextCallback}
             >Next</button>

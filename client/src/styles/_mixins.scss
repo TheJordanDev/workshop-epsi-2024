@@ -1,0 +1,17 @@
+// I want to define mixins both max and min breakpoints for different devices.
+@mixin max($breakpoint) { @media (max-width: $breakpoint) { @content; } }
+@mixin min($breakpoint) { @media (min-width: $breakpoint) { @content; } }
+
+@mixin max-large { @include max(1200px) { @content; } }
+@mixin min-large { @include min(1200px) { @content; } }
+
+@mixin max-computer { @include max(992px) { @content; } }
+@mixin min-computer { @include min(992px) { @content; } }
+
+@mixin max-tablet { @include max(768px) { @content; } }
+@mixin min-tablet { @include min(768px) { @content; } }
+
+@mixin max-phone { @include max(576px) { @content; } }
+@mixin min-phone { @include min(576px) { @content; } }
+
+

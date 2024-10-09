@@ -22,7 +22,7 @@ function Question({ question, questionIndex, totalQuestions, answerCallback, sel
             <div>
                 <h1>{question}</h1>
             </div>
-            <form>
+            <form className="answer-form">
                 <ul className="answer-container">
                     <li>
                         <AnswerButton
