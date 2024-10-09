@@ -47,7 +47,7 @@ function Quizz() {
     if (stats) {
         return (
             <>
-                <h1>FINIS</h1>
+                <h1>FINI</h1>
             </>
         )
     }

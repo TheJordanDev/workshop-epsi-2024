@@ -114,8 +114,21 @@ ul.answer-container {
         &:nth-child(3) label::before {
             width: calc(1.5rem + 0.5vw);
         }
-        &:nth-child(4) label::before {
-            width: calc(1.25rem + 0.5vw);
+        &:nth-child(4) label {
+            &::before {
+                width: calc(1.25rem + 0.5vw);
+            }
+
+            &::after {
+                content: "Neutre";
+                position: absolute;
+                text-align: center;
+                width: 100%;
+                text-wrap: nowrap;
+                left: -0.9rem;
+                top: -1.5rem;
+                color: #808080;
+            }
         }
         &:nth-child(5) label::before {
             width: calc(1.5rem + 0.5vw);

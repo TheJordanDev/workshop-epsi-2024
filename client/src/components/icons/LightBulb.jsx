@@ -1,6 +1,6 @@
 function LightBulb({on}) {
     return (
-        <svg fill="#000000" version="1.1" viewBox="0 0 489.242 489.242" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsSvg="http://www.w3.org/2000/svg"><defs id="defs3" />
+        <svg fill="#000000" version="1.1" viewBox="0 0 489.242 489.242" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg"><defs id="defs3" />
         <g id="g3">
             <g id="g2">
                 <path
