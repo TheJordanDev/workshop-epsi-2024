@@ -18,7 +18,7 @@ function Question({ question, questionIndex, totalQuestions, answerCallback, sel
 
     return (
         <div className="question">
-            <h1>{questionIndex+1}/{totalQuestions}</h1>
+            <h1 className="quizz-progress">{questionIndex+1}/{totalQuestions}</h1>
             <div>
                 <h1>{question}</h1>
             </div>

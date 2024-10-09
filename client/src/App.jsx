@@ -42,7 +42,7 @@ function App() {
 					height: "100%",
 					width: "100%",
 				}}>
-					<Loader color="#c844ca" duration={1}/>
+					<Loader color="#AA86DA" duration={1}/>
 				</div>
 			)}
 		</>

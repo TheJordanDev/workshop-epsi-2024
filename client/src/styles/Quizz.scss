@@ -5,6 +5,10 @@ div.quizz {
     flex-direction: column;
 }
 
+h1.quizz-progress {
+    letter-spacing: 0.5rem;
+}
+
 div.content {
     display: flex;
     flex-direction: column;
@@ -40,8 +44,9 @@ ul.answer-container {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     padding-left: 0;
+    justify-content: center;
+    gap: 5vw;
     li {
       display: flex;
       align-items: center;
