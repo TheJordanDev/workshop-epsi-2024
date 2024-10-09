@@ -30,6 +30,28 @@ app.post("/make_session", (req, res) => {
     res.json({ id: user.id });
 });
 
+app.post("/back", (req, res) => {
+
+    if (!req.headers.authorization) return res.status(401).json({ error: "Unauthorized" });
+    
+    const user = get_user(req.headers.authorization);
+    if (!user) return res.status(401).json({ error: "Unauthorized" });
+
+    const session = get_session(user.id);
+    if (!session) return res.status(401).json({ error: "Unauthorized" });
+
+    if (session.current_question == 0) return res.status(401).json({ error: "Unauthorized" });
+
+    session.stats.remove_stat(session.current_question);
+    session.current_question--;
+    const question = questions[session.current_question];
+    res.json({
+        "total": questions.length,
+        "current": session.current_question,
+        "question": question.question,
+    });
+});
+
 app.get("/questions", (req, res) => {
     if (!req.headers.authorization) return res.status(401).json({ error: "Unauthorized" });
     
@@ -55,7 +77,7 @@ app.post("/answer", (req, res) => {
         const answer = question.answers[req.body.answer];
         if (answer) {
             answer.operations.forEach((operation) => {
-                session.stats.add_stat(operation.type, operation.value);
+                session.stats.add_stat(session.current_question, operation.type, operation.value);
             });
         }
 

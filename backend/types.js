@@ -25,9 +25,14 @@ class Stats {
         this.stats = {};
     }
 
-    add_stat(stat, value) {
-        if (!this.stats[stat]) this.stats[stat] = 0;
-        this.stats[stat] += value;
+    add_stat(questionIndex, stat, value) {
+        if (!this.stats[questionIndex]) this.stats[questionIndex] = [];
+        this.stats[questionIndex].push(new Operation(stat, value));
+    }
+
+    remove_stat(questionIndex) {
+        if (!this.stats[questionIndex]) return;
+        this.stats[questionIndex].pop();
     }
 }
 
