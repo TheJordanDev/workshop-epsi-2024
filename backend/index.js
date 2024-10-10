@@ -14,6 +14,7 @@ const server = http.createServer(app);
 const users = [];
 const sessions = [];
 const questions = parseQuestionsToObjects(require("./questions.json"));
+const didYouKnow = require("./dyk.json");
 
 function get_user(id) {
     return users.find((user) => user.id == id);
@@ -51,6 +52,18 @@ app.post("/back", (req, res) => {
         "total": questions.length,
         "current": session.current_question,
         "question": question.question,
+    });
+});
+
+app.get("/dyk", (req, res) => {
+    const user = get_user(req.headers.authorization);
+    if (!user) return res.status(401).json({ error: "Unauthorized" });
+
+    const session = get_session(user.id);
+    if (!session) return res.status(401).json({ error: "Unauthorized" });
+
+    res.json({
+        "dyk": didYouKnow,
     });
 });
 

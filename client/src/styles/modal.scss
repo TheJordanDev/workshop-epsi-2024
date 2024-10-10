@@ -1,3 +1,6 @@
+@import './_reset.scss';
+@import './_mixins.scss';
+
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -11,6 +14,16 @@
     z-index: 1000;
 }
 
+.modal-header {
+    width: 100%;
+    border-bottom: 1px solid #E4D8F3;
+    margin-bottom: 0.5rem;
+    h1 {
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+}
+
 .modal-content {
     background: #743BBF;
     color: #E4D8F3;
@@ -19,6 +32,9 @@
     position: relative;
     max-width: 90%;
     max-height: 90%;
+    user-select: none;
+    @include min-large { max-width: 50% }
+    @include max-phone { padding-inline: 0.5rem; }
 }
 
 .modal-close {

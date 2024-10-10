@@ -1,0 +1,27 @@
+.dyk {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.dkyCard {
+    background: #743BBF;
+    color: #E4D8F3;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    padding: 1rem;
+    margin: 0.5rem;
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+}
+
+.dykTitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.dykLine {
+    font-size: 1rem;
+}

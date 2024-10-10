@@ -38,7 +38,7 @@ function Quizz() {
         if (selectedAnswer) nextQuestionResp = await axios.post("/answer", { answer: selectedAnswer });
         else nextQuestionResp = await axios.post("/answer");
 
-        // setSelectedAnswer(null);
+        setSelectedAnswer(null);
         if (nextQuestionResp.data.result) {
             setStats(nextQuestionResp.data.session);
         } else {
@@ -55,22 +55,43 @@ function Quizz() {
         return (
             <>
                 <h1>Résultats</h1>
+                <h2>Score: {stats.total}</h2>
 			    <StatsGraph data={stats.data} />
-                <span>
-                    <h2>Score: {stats.total}</h2>
+                <span
+                    style={{
+                        fontSize: "1.5rem",
+                        fontWeight: "bold",
+                        display: "block",
+                        textAlign: "center",
+                        margin: "1rem 0",
+                        textDecoration: "underline"
+                    }}
+                >
                     {
                         stats.total < 40 && (
-                            "Faible probabilité de traits Asperger (comportement très éloigné des caractéristiques Asperger)."
+                            <>
+                                Faible probabilité de traits Asperger
+                                <br/>
+                                (Comportement très éloigné des caractéristiques Asperger).
+                            </>
                         )
                     }
                     {
                         stats.total >= 41 && stats.total <= 80 && (
-                            "Probabilité modérée de traits Asperger (présence de certains comportements typiques du syndrome)."
+                            <>
+                                Probabilité modérée de traits Asperger 
+                                <br/>
+                                (Présence de certains comportements typiques du syndrome).
+                            </>
                         )
                     }
                     {
                         stats.total > 80 && (
-                            "Forte probabilité de traits Asperger (comportements majoritairement en lien avec le syndrome)."
+                            <>
+                            Forte probabilité de traits Asperger
+                            <br />
+                            (Comportements majoritairement en lien avec le syndrome).
+                            </>
                         )
                     }
                 </span>
