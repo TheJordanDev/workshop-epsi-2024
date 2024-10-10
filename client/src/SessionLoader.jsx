@@ -23,7 +23,7 @@ const SessionLoader = ({ children }) => {
                 .catch((error) => {
                     console.error("Error fetching session:", error);
                 });
-        }, 1);
+        }, 1000);
     }, []);
 
     if (!userId) {
