@@ -10,9 +10,8 @@
 
 html, body {
     min-height: 100vh !important;
-    height: 100vh !important;
     min-height: calc(var(--vh, 1vh) * 100) !important;
-    height: calc(var(--vh, 1vh) * 100) !important;
+    height: fit-content;
 }
 
 /* Remove default margin */
@@ -42,9 +41,10 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-    min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    display: flex;
+    flex-direction: column;
 }
 
 /* A elements that don't have a class get default styles */

@@ -4,12 +4,12 @@ function NavigationButtons({ backCallback, nextCallback, answer, questionIndex }
             { questionIndex > 0 && 
                 <button className="navigation-button previous"
                     onClick={backCallback}
-                >Previous</button> 
+                >Précédent</button> 
             }
             <button className="navigation-button next"
                 disabled={answer === null}
                 onClick={nextCallback}
-            >Next</button>
+            >Suivant</button>
         </div>
     );
 }

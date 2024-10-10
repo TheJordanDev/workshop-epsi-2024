@@ -1,36 +1,947 @@
 [
     {
-        "question": "What is the capital of France?",
+        "question": "Je prends en considération les émotions d'autrui et je réagis de façon adaptée lorsqu'elles s'expriment de manière intense (comme des sanglots ou de la colère visible).",
         "answers": {
             "answer-1": [
                 {
-                    "stat": "social",
-                    "operation": "+1"
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 7
                 }
             ],
-            "answer-2": {},
-            "answer-3": {},
-            "answer-4": {},
-            "answer-5": {},
-            "answer-6": {},
-            "answer-7": {}
+            "answer-2": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 6
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 5
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 3
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 2
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 1
+                }
+            ]
         }
     },
     {
-        "question": "What is the capital of Paris ?",
+        "question": "On me dit souvent que je semble insensible aux émotions des autres.",
         "answers": {
             "answer-1": [
                 {
-                    "stat": "social",
-                    "operation": "+1"
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 1
                 }
             ],
-            "answer-2": {},
-            "answer-3": {},
-            "answer-4": {},
-            "answer-5": {},
-            "answer-6": {},
-            "answer-7": {}
+            "answer-2": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Je me sens souvent paralysé(e) et incapable de réagir face à la détresse émotionnelle ou mentale d'une autre personne.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Je préfère que les émotions des autres soient exprimées de manière explicite et verbale plutôt que d’avoir à les deviner.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Perception et gestion des émotions",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "J'éprouve des difficultés à engager des discussions avec de nouvelles personnes.",
+        "info": "Pour faciliter les échanges avec une personne Asperger, exprimez clairement vos émotions et posez des questions directes sur ses ressentis.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Les conversations banales (comme les salutations) me paraissent souvent inutiles et compliquées à comprendre.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Il m'arrive souvent de ne pas remarquer si quelqu'un n'est pas intéressé par un sujet qui me passionne.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Je trouve difficile de comprendre les sous-entendus, les métaphores ou les expressions figurées.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Interaction sociale et communication",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Je ressens le besoin de me retirer dans un endroit calme après avoir été dans un environnement bruyant ou socialement intense.",
+        "info": "Privilégiez des échanges structurés et évitez les conversations floues pour soutenir une communication efficace.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Je suis extrêmement sensible à certaines sensations (sons, textures, lumières) qui n'affectent pas les autres.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Je répète parfois certains gestes ou comportements (comme un tic) pour me rassurer ou me calmer",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Lorsque je suis absorbé(e) par une tâche, j’ai des difficultés à accepter une interruption ou à changer d’activité.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Sensibilité sensorielle et besoin de réconfort",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "J’ai besoin de suivre une routine quotidienne bien structurée et je me sens déstabilisé(e) lorsqu’elle est perturbée.",
+        "info": "Créez un environnement calme et laissez des pauses fréquentes pour aider à gérer la surcharge sensorielle.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Je ressens un inconfort intense lorsque les choses ne se déroulent pas comme prévu.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Je me focalise souvent sur les détails plutôt que sur la vue d’ensemble d’une situation.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Les situations sociales imprévues me mettent dans un état d’anxiété qui peut me rendre incapable de réagir.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Flexibilité cognitive et adaptation aux changements",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "J'ai tendance à m'intéresser rapidement à de nouveaux sujets ou activités, mais je perds souvent cet intérêt après un certain temps.",
+        "info": "Prévenez à l’avance des changements et proposez des alternatives pour réduire l’anxiété face à l'imprévu.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "On me dit souvent que j'impose mes sujets ou activités favoris sans tenir compte de l'intérêt des autres.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Quand je parle d’un sujet qui me passionne, il m’arrive de ne pas percevoir si mon interlocuteur veut parler d’autre chose.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 7
+                }
+            ]
+        }
+    },
+    {
+        "question": "Il m’est difficile de passer à une autre tâche lorsque je suis concentré(e) sur quelque chose qui m'intéresse particulièrement.",
+        "info": "Encouragez les intérêts intenses tout en intégrant progressivement d’autres sujets pour diversifier les interactions.",
+        "answers": {
+            "answer-1": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 1
+                }
+            ],
+            "answer-2": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 2
+                }
+            ],
+            "answer-3": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 3
+                }
+            ],
+            "answer-4": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 0
+                }
+            ],
+            "answer-5": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 5
+                }
+            ],
+            "answer-6": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 6
+                }
+            ],
+            "answer-7": [
+                {
+                    "stat": "Centres d'intérêt spécifiques et intensité",
+                    "operation": 7
+                }
+            ]
         }
     }
 ]

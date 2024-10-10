@@ -20,7 +20,13 @@ function DidYouKnowSwitch() {
     return (
         <div
             onClick={handleClick}
-            style={{ position: "absolute", top: "1rem", right: "1rem", width: "2rem", height: "2rem" }}
+            style={{ 
+                position: "fixed",
+                top: "1rem",
+                right: "1rem",
+                width: "2rem",
+                height: "2rem",
+            }}
         >
             <LightBulb on={on} />
         </div>

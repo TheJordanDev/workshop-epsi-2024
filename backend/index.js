@@ -24,6 +24,8 @@ function get_session(user_id) {
 }
 
 app.post("/make_session", (req, res) => {
+    const userId = req.headers.authorization;
+    if (get_user(userId)) return res.json({ id: userId });
     const user = new User(req.headers.authorization);
     users.push(user);
     sessions[user.id] = new Session(user);
@@ -70,11 +72,9 @@ app.post("/answer", (req, res) => {
     const session = get_session(user.id);
     if (!session) return res.status(401).json({ error: "Unauthorized" });
 
-    if (session.current_question >= questions.length) return res.json({ result: true, session: session.stats });
-
     if (req.body?.answer) {
         const question = questions[session.current_question];
-        const answer = question.answers[req.body.answer];
+        const answer = question.answers.find((answer) => answer.answer == req.body.answer);
         if (answer) {
             answer.operations.forEach((operation) => {
                 session.stats.add_stat(session.current_question, operation.type, operation.value);
@@ -85,13 +85,15 @@ app.post("/answer", (req, res) => {
         session.current_question++;
     }
 
-    if (session.current_question >= questions.length) return res.json({ result: true, session: session.stats });
+    if (session.current_question >= questions.length) 
+        return res.json({ result: true, session: session.formatToGraph() });
 
     const newQuestion = questions[session.current_question];
     res.json({
         "total": questions.length,
         "current": session.current_question,
         "question": newQuestion.question,
+        "info": newQuestion.info,
     });
 });
 
