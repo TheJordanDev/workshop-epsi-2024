@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import axios from "@/axios";
 import Loader from "./components/icons/Loader";
+import StartupScreen from "./components/StartupScreen";
 
 const SessionLoader = ({ children }) => {
     const [userId, setUserId] = useState(null);
+
+    const [startupFinished, setStartupFinished] = useState(false);
 
     useEffect(() => {
         const fetchSession = async () => {
@@ -25,6 +28,12 @@ const SessionLoader = ({ children }) => {
                 });
         }, 1000);
     }, []);
+
+    if (!startupFinished) {
+        return (
+            <StartupScreen finishedCallback={() => setStartupFinished(true)} />
+        );
+    }
 
     if (!userId) {
         return (

@@ -26,3 +26,43 @@ hr {
   width: 100%;
   margin: 2rem;
 }
+
+.startup {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+  h1 {
+    font-size: 2rem;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-size: 1.5rem;
+      margin: 1rem;
+    }
+
+  }
+  button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}
